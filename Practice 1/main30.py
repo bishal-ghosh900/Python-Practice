@@ -12,9 +12,9 @@ def findPrimes(n):
             while j * i <= n:
                 arr[j*i] = 0
                 j += 1
-    for i in range(n+1):
-        if arr[i] == 1:
-            print(i, sep=" ")
+    for index, value in enumerate(arr):
+        if value == 1:
+            print(index, sep=" ")
         else:
             continue
 

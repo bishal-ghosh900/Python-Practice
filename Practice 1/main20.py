@@ -37,5 +37,10 @@ temp_numbers.append(33)
 print(temp_numbers) # [7, 6, 6, 5, 2, 1, 33]
 print(numbers) # [7, 6, 6, 5, 2, 1]
 
+del numbers[2: 5] # [7, 6, 1] --> int [2 : 5] -> 2 and 5 both are index, not length of how many numbers we want to delete
+print(numbers)
+
 numbers.clear() # []
 print(numbers)
+
+

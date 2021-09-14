@@ -27,6 +27,19 @@ print(numbers.count(6)) # 2 --> all occurence of 6 in the list
 numbers.sort() # [1, 2, 5, 6, 6, 7]
 print(numbers)
 
+numbers.sort(reverse=True)
+print(f"Reversed list --> {numbers}") # [7, 6, 6, 5, 2, 1]
+numbers.sort()
+
+numbers2 = sorted(numbers)
+print(numbers) # [1, 2, 5, 6, 6, 7]
+print(numbers2) # [7, 6, 6, 5, 2, 1]
+
+numbers3 = sorted(numbers, reverse=True)
+print(numbers) # [1, 2, 5, 6, 6, 7]
+print(numbers3) # [7, 6, 6, 5, 2, 1]
+
+
 numbers.reverse() # [7, 6, 6, 5, 2, 1]
 print(numbers)
 

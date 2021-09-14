@@ -24,3 +24,8 @@ print(num_set2 - num_set1) # {8, 6, 7}
 
 # symmetric difference --> (A - B) U (B - A) --> Every thing present in A and B but not in both
 print(num_set1 ^ num_set2) # {1, 2, 3, 6, 7, 8}
+
+# like list we can also create set comprehension
+
+nums = { i * 2 for i in range(5)}
+print(nums) # {0, 2, 4, 6, 8}

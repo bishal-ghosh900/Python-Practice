@@ -1,4 +1,4 @@
-# magic methods
+# magic methods => https://rszalski.github.io/magicmethods/
 
 
 

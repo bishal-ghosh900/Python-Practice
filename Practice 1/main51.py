@@ -26,6 +26,8 @@ print(p1.age) # 27
 # p1.age = -1 => gives an error ->  __main__.InvalidAge: Give a  valid age.
 
 # we can do this implementation another way but in that implementation the code will be repeatated , so the upper implementation is best to declare property
+
+
 # class Person :
 #     def __init__(self, first_name, last_name, age):
 #         self.first_name = first_name

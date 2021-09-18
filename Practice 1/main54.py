@@ -1,5 +1,4 @@
-# method and constructor overriding
-# multilevel inheritance 
+# method and constructor overriding with multilevel inheritance 
 
 class Animal:
     def __init__(self, eyes, tail):
